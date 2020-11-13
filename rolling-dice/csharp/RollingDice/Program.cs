@@ -26,7 +26,7 @@ namespace RollingDice
 
         static Die Roll()
         {
-            int dieValue = new Random().Next(1, 6);
+            int dieValue = new Random().Next(1, 7);
             Die die = new Die(dieValue);
             return die;
         }
